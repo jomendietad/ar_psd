@@ -1,0 +1,46 @@
+--- Spectral Analysis and Performance Report ---
+
+File Analyzed: prueba1.wav
+
+--- Performance and Hardware Resource Metrics ---
+Total Execution Time (full workflow): 4.4800 s
+C Analyzer CPU Time: 1.2210 s
+Peak CPU Usage (C process only): 109.80 %
+Average CPU Usage (C process only): 93.78 %
+Peak RAM Usage (C process only): 31.71 MB
+Average RAM Usage (C process only): 7.09 MB
+Peak CPU Frequency (C process only): 1419.75 MHz
+Average CPU Frequency (C process only): 1250.68 MHz
+Peak CPU Temperature (C process only): 41.38 °C
+Average CPU Temperature (C process only): 40.75 °C
+RAM Frequency (Configured): 3200 MT/s
+
+--- AR Model Metrics ---
+Model Order Used: 30
+Residual Noise Variance: 227.140914831729
+
+--- Model Validation (Residual Gaussianity Test) ---
+Result: No
+p-value: 0.0000 (considered Gaussian if p > 0.05)
+
+--- Detected Frequency Peaks ---
+  Peak #1 (sorted by power):
+    Frequency: 652.99 Hz
+    Power:   79.09 dB
+    Width (-3dB): 545.05 Hz (precision metric)
+  Peak #2 (sorted by power):
+    Frequency: 2609.66 Hz
+    Power:   68.93 dB
+    Width (-3dB): 3018.32 Hz (precision metric)
+  Peak #3 (sorted by power):
+    Frequency: 3785.23 Hz
+    Power:   63.89 dB
+    Width (-3dB): 4184.62 Hz (precision metric)
+  Peak #4 (sorted by power):
+    Frequency: 6799.85 Hz
+    Power:   47.30 dB
+    Width (-3dB): 7513.55 Hz (precision metric)
+  Peak #5 (sorted by power):
+    Frequency: 8185.41 Hz
+    Power:   43.34 dB
+    Width (-3dB): 8920.15 Hz (precision metric)

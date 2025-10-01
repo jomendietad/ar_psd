@@ -1,0 +1,62 @@
+--- Spectral Analysis and Performance Report ---
+
+File Analyzed: fragmento_minuto_1_5s.wav
+
+--- Performance and Hardware Resource Metrics ---
+Total Execution Time (full workflow): 0.8736 s
+C Analyzer CPU Time: 0.2254 s
+Peak CPU Usage (C process only): 99.80 %
+Average CPU Usage (C process only): 94.80 %
+Peak RAM Usage (C process only): 1.91 MB
+Average RAM Usage (C process only): 0.96 MB
+Peak CPU Frequency (C process only): 1402.91 MHz
+Average CPU Frequency (C process only): 1393.73 MHz
+Peak CPU Temperature (C process only): 41.88 °C
+Average CPU Temperature (C process only): 41.88 °C
+RAM Frequency (Configured): 3200 MT/s
+
+--- AR Model Metrics ---
+Model Order Used: 30
+Residual Noise Variance: 25668.085582412143
+
+--- Model Validation (Residual Gaussianity Test) ---
+Result: No
+p-value: 0.0000 (considered Gaussian if p > 0.05)
+
+--- Detected Frequency Peaks ---
+  Peak #1 (sorted by power):
+    Frequency: 3808.20 Hz
+    Power:   64.54 dB
+    Width (-3dB): 5585.35 Hz (precision metric)
+  Peak #2 (sorted by power):
+    Frequency: 5082.63 Hz
+    Power:   63.75 dB
+    Width (-3dB): 5690.84 Hz (precision metric)
+  Peak #3 (sorted by power):
+    Frequency: 8317.10 Hz
+    Power:   61.39 dB
+    Width (-3dB): 8955.31 Hz (precision metric)
+  Peak #4 (sorted by power):
+    Frequency: 9878.87 Hz
+    Power:   61.17 dB
+    Width (-3dB): 1295.24 Hz (precision metric)
+  Peak #5 (sorted by power):
+    Frequency: 11181.41 Hz
+    Power:   60.40 dB
+    Width (-3dB): 11586.81 Hz (precision metric)
+  Peak #6 (sorted by power):
+    Frequency: 7026.93 Hz
+    Power:   60.25 dB
+    Width (-3dB): 11604.40 Hz (precision metric)
+  Peak #7 (sorted by power):
+    Frequency: 12635.37 Hz
+    Power:   57.11 dB
+    Width (-3dB): 13110.62 Hz (precision metric)
+  Peak #8 (sorted by power):
+    Frequency: 13999.64 Hz
+    Power:   55.01 dB
+    Width (-3dB): 14423.44 Hz (precision metric)
+  Peak #9 (sorted by power):
+    Frequency: 15311.68 Hz
+    Power:   52.42 dB
+    Width (-3dB): 15665.93 Hz (precision metric)

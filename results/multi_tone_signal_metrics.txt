@@ -1,0 +1,38 @@
+--- Spectral Analysis and Performance Report ---
+
+File Analyzed: multi_tone_signal.wav
+
+--- Performance and Hardware Resource Metrics ---
+Total Execution Time (full workflow): 0.6356 s
+C Analyzer CPU Time: 0.1380 s
+Peak CPU Usage (C process only): 89.80 %
+Average CPU Usage (C process only): 49.90 %
+Peak RAM Usage (C process only): 2.55 MB
+Average RAM Usage (C process only): 1.28 MB
+Peak CPU Frequency (C process only): 1706.12 MHz
+Average CPU Frequency (C process only): 1553.16 MHz
+Peak CPU Temperature (C process only): 40.62 °C
+Average CPU Temperature (C process only): 40.56 °C
+RAM Frequency (Configured): 3200 MT/s
+
+--- AR Model Metrics ---
+Model Order Used: 30
+Residual Noise Variance: 0.000000000119
+
+--- Model Validation (Residual Gaussianity Test) ---
+Result: No
+p-value: 0.0000 (considered Gaussian if p > 0.05)
+
+--- Detected Frequency Peaks ---
+  Peak #1 (sorted by power):
+    Frequency: 658.23 Hz
+    Power:   15.41 dB
+    Width (-3dB): 16.15 Hz (precision metric)
+  Peak #2 (sorted by power):
+    Frequency: 442.31 Hz
+    Power:   13.92 dB
+    Width (-3dB): 16.15 Hz (precision metric)
+  Peak #3 (sorted by power):
+    Frequency: 556.13 Hz
+    Power:   9.69 dB
+    Width (-3dB): 37.69 Hz (precision metric)
